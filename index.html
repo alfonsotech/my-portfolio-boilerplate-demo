@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio Boilerplate</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Simple Nav with Flexbox -->
+    <!-- <nav>
+      <div class="logo">
+        <h1>Alfonso Web Development</h1>
+      </div>
+      <ul class="navigation-items">
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav> -->
+
+    <header>
+      <a href="#main-menu"
+         id="main-menu-toggle"
+         class="menu-toggle"
+         aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </a>
+
+      <h1 class="logo">Alfonso Web Dev</h1>
+
+      <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+          <span class="sr-only">Close main menu</span>
+          <span class="fa fa-close" aria-hidden="true"></span>
+        </a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <a href="#main-menu-toggle"
+         class="backdrop"
+         tabindex="-1"
+         aria-hidden="true" hidden></a>
+    </header>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="scripts.js">
+
+    </script>
+  </body>
+</html>
