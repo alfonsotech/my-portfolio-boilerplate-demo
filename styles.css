@@ -1,4 +1,6 @@
-
+* {
+  outline: 1px dotted red;
+}
 /* Simple Nav with Flexbox */
 /* nav {
   display: flex;
@@ -233,3 +235,19 @@ article h2 {
 }
 
 /* My Styles */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.about-text>h1 {
+  text-align: center;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
